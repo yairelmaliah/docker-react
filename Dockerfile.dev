@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN chown -R node /app/node_modules
+RUN chown -R docker /app/node_modules
 
 CMD ["npm" ,"run" ,"start"]
